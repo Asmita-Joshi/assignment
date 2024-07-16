@@ -1,0 +1,74 @@
+/* Custom Styles */
+.hero-section {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 24px;
+}
+
+#what-we-do .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#our-project img {
+    max-width: 100%;
+    background-color: crimson;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+}
+#company-growth {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#company-growth .text-danger {
+    color: #e74c3c;
+}
+
+#company-growth .font-weight-bold {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#company-growth .growth-box {
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+#company-growth .growth-box:hover {
+    transform: translateY(-10px);
+}
+
+#company-growth i {
+    margin-bottom: 15px;
+}
+
+#company-growth h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#company-growth p {
+    font-size: 1rem;
+    color: #6c757d;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Your Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#what-we-do">What We Do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#our-project">Our Project</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary" id="contactUsBtn">Contact Us</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1>Welcome to Our Website</h1>
+            <p>Your tagline goes here.</p>
+        </div>
+    </header>
+    <section id="digital-marketing" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-danger">AWARD WINNING</h3>
+                    <h1 class="font-weight-bold">DIGITAL MARKETING AGENCY</h1>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+                    <li class="nav-item">
+                        <button class="btn btn-primary" id="contactUsBtn1">Contact Us</button>
+                    </li>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/digital-marketing.png" class="img-fluid" alt="Digital Marketing">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- What We Do Section -->
+<section id="what-we-do" class="mt-5">
+    <div class="container">
+        <h3 class="text-danger">WHAT WE DO</h3>
+        <h1 class="font-weight-bold">SERVICES PROVIDE FOR YOU</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <img src="images/what-we-do-1.png" class="img-fluid what-we-do-img" alt="Service 1">
+            </div>
+            <div class="col-md-3">
+                <img src="images/what-we-do-2.png" class="img-fluid what-we-do-img" alt="Service 2">
+            </div>
+            
+            <div class="col-md-3">
+                <div class="service-box bg-danger text-white p-4">
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                    <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="images/what-we-do-3.png" class="img-fluid what-we-do-img" alt="Service 3">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Our Project Section -->
+    <section id="our-project" class="mt-5">
+        <div class="container">
+            <h5 class="text-center">OUR PROJECT</h5>
+            <h2 class="text-center">WHY WE ARE BEST</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="projectImage" src="images/project-1.png" class="img-fluid" alt="Project Image">
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item" onclick="changeProjectImage('images/project-2.jpeg')"><p>Genderless Kei - Japan's Hot</p><p>set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p></li>
+                        <li class="list-group-item" onclick="changeProjectImage('images/project-1.png')"><p>Better Strategy & Quality</p><p>set to launch on the manufacture's new A330neo aircraft in 2017, it's offering lots of</li>
+                        <li class="list-group-item" onclick="changeProjectImage('images/project-3.jpeg')"><p>Genderless Kei - Japan's Hot</p><p>set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Company Growth Section -->
+<section id="company-growth" class="mt-5">
+    <div class="container text-center">
+        <h3 class="text-danger">EXPERTS GROWT</h3>
+        <h1 class="font-weight-bold">OUR COMPANY GROWTH</h1>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="growth-box p-4">
+                    <i class="fas fa-heart fa-3x text-danger"></i>
+                    <h2>199 +</h2>
+                    <p>Staticfied Customers</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="growth-box p-4">
+                    <i class="fas fa-clock fa-3x text-danger"></i>
+                    <h2>1591+</h2>
+                    <p>Days Of Operation</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="growth-box p-4">
+                    <i class="fas fa-check-circle fa-3x text-danger"></i>
+                    <h2>283 +</h2>
+                    <p>Complete Project</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="growth-box p-4">
+                    <i class="fas fa-trophy fa-3x text-danger"></i>
+                    <h2>75+</h2>
+                    <p>Win Awards</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Us Modal -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="https://getform.io/f/your-getform-endpoint" method="POST">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5 bg-light text-center p-3">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
